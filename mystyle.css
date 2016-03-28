@@ -3,7 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: #A57F3C;
+  color: #D9A64E;
 }
 
 .me h1 {
@@ -45,5 +45,5 @@ body{
 }
 
 .fa{
-  color: #A57F3C;
+  color: #D9A64E;
 }
