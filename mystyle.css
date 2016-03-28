@@ -3,4 +3,47 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  color: #A57F3C;
+}
+
+.me h1 {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  text-align: center;
+}
+.me h2 {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  position: relative;
+}
+
+li a {
+  color: #232323;
+  display: inline-block;
+  transition: transform .2s ease;
+}
+
+li a:hover {
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  transform: translateY(5px);
+}
+
+ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+}
+
+body{
+  background-image: url("background.png")
+}
+
+.fa{
+  color: #A57F3C;
 }
