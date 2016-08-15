@@ -1,5 +1,5 @@
 .me {
-  color: #D9A64E;
+  color: white;
   text-align: center;
   vertical-align: middle;
   display: table-cell;
@@ -24,7 +24,7 @@ li {
 }
 
 li a {
-  color: #232323;
+  color: white;
   display: inline-block;
   transition: transform .2s ease;
 }
@@ -43,9 +43,9 @@ ul {
 }
 
 body{
-  background-image: url("background.png")
+  background-color: #5DBBF8;
 }
 
 .fa{
-  color: #D9A64E;
+  color: white;
 }
