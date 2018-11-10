@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "BrownStd";
+  src: url("assets/fonts/BrownStd-Regular.otf");
+}
+@font-face {
+  font-family: "BrownStdLight";
+  src: url("assets/fonts/BrownStd-Light.otf");
+}
+
+
 body {
   background-color: #F9F9F9;
 }
@@ -10,20 +20,41 @@ body {
 
 .Title {
   font-size: calc(20px + 1.5vw);
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "BrownStd","Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-bottom: 50px;
 }
 
 .Notecard {
   background: white;
-  width: 80vw;
+  width: 40vw;
   height: 500px;
-  margin-top: 50px;
   box-shadow: 2px 2px 8px rgb(190, 189, 189);
+  display: inline-block;
 }
 
 .Text {
   text-align: center;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "BrownStdLight", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: relative;
+  font-size: calc(30px + 1.5vw);
+  top: 45%;
+  font-weight: 400px;
+}
+.Notecard2 {
+  background: white;
+  width: 40vw;
+  height: 500px;
+  box-shadow: 2px 2px 8px rgb(190, 189, 189);
+  position: absolute;
+  display: inline-block;
+}
+
+.Text2 {
+  text-align: center;
+  font-family: "BrownStd", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: relative;
+  font-size: calc(30px + 1.5vw);
+  top: 45%;
 }
 
 li {
