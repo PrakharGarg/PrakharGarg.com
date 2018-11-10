@@ -1,20 +1,29 @@
-.me {
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+body {
+  background-color: #F9F9F9;
+}
+.page {
   width: 100vw;
-  height: 100vh;
-  font-size: large;
+  height: 100%;
+  margin-top: 4%;
+  margin-left: 10%;
 }
 
-.me h1 {
-  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-  text-align: center;
+.Title {
+  font-size: calc(20px + 1.5vw);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.me h2 {
-  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+
+.Notecard {
+  background: white;
+  width: 80vw;
+  height: 500px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 8px rgb(190, 189, 189);
+}
+
+.Text {
   text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 li {
@@ -40,10 +49,6 @@ ul {
   margin: 10px 0;
   padding: 0;
   text-align: center;
-}
-
-body{
-  background-color: #5DBBF8;
 }
 
 .fa{
