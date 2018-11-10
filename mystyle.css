@@ -47,6 +47,10 @@ body {
   box-shadow: 2px 2px 8px rgb(190, 189, 189);
   position: absolute;
   display: inline-block;
+  transition: transform 10.5s cubic-bezier(0.13, 0.7, 0.48, 1.01);
+}
+.Notecard2.down {
+  transform: translateY(1000px);
 }
 
 .Text2 {
