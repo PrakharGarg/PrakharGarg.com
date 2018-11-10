@@ -72,23 +72,6 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
-  .Notecard{
-    height: 300px;
-  }
-  .Notecard2 {
-    height: 300px;
-  }
-  .Text2 {
-      font-size: calc(20px + 1.5vw);;
-  }
-  .Text {
-    font-size: calc(20px + 1.5vw);;
-  }
-  ul {
-    margin-left:-10%;
-  }
-}
 
 li {
   display: inline;
@@ -119,6 +102,25 @@ ul {
 
 .fa{
   color: rgb(230, 230, 230);
+}
+
+@media only screen and (max-width: 600px) {
+  .Notecard{
+    height: 300px;
+  }
+  .Notecard2 {
+    height: 300px;
+  }
+  .Text2 {
+      font-size: calc(20px + 1.5vw);;
+  }
+  .Text {
+    font-size: calc(20px + 1.5vw);;
+  }
+  ul {
+    margin-top: 320px;
+    margin-left:-10%;
+  }
 }
 
 
