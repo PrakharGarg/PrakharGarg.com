@@ -47,9 +47,14 @@ body {
   box-shadow: 2px 2px 8px rgb(190, 189, 189);
   position: absolute;
   display: inline-block;
-  transition: transform 10.5s cubic-bezier(0.13, 0.7, 0.48, 1.01);
+  transition: transform 9s, opacity 2s;
+  /* transition: transform 10.5s cubic-bezier(0.13, 0.7, 0.48, 1.01); */
+  z-index: 999;
 }
 .Notecard2.down {
+  transform-origin: 50% 0;
+  animation: swinging 3.5s ease-in-out forwards;
+  opacity: 0;
   transform: translateY(1000px);
 }
 
@@ -90,3 +95,6 @@ ul {
 .fa{
   color: rgb(230, 230, 230);
 }
+
+
+
