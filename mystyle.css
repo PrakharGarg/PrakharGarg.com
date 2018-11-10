@@ -68,6 +68,17 @@ body {
   position: relative;
   font-size: calc(30px + 1.5vw);
   top: 40%;
+  width: 40vw;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .Text2 {
+      font-size: calc(20px + 1.5vw);;
+  }
+  .Text {
+    font-size: calc(20px + 1.5vw);;
+}
 }
 
 li {
