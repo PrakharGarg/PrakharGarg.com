@@ -117,6 +117,10 @@ ul {
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-color: rgb(82, 76, 186);
+
+  -webkit-text-decoration: underline;
+  -webkit-text-decoration-style: wavy;
+  -webkit-text-decoration-color: rgb(82, 76,
 }
 
 .wave {
