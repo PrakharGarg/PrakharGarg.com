@@ -12,8 +12,8 @@ body {
   background-color: #F9F9F9;
 }
 .page {
-  width: 100vw;
-  height: 100%;
+  width: 500px;
+  height: 600px;
   margin-top: 4%;
   margin-left: 10%;
 }
@@ -30,7 +30,7 @@ body {
   height: 500px;
   box-shadow: 0px 2px 8px rgb(190, 189, 189);
   display: inline-block;
-  transition: transform 9s, opacity 2s;
+  transition: transform 3s, opacity 2s;
   z-index: 999;
   position: absolute;
 }
@@ -51,7 +51,7 @@ body {
   position: absolute;
   margin-left:40vw;
   display: inline-block;
-  transition: transform 9s, opacity 2s;
+  transition: transform 3s, opacity 2s;
   /* transition: transform 10.5s cubic-bezier(0.13, 0.7, 0.48, 1.01); */
   z-index: 999;
 }
@@ -59,7 +59,7 @@ body {
   transform-origin: 50% 0;
   animation: swinging 3.5s ease-in-out forwards;
   opacity: 0;
-  transform: translateY(1000px);
+  transform: translateY(200px);
 }
 
 .Text2 {
@@ -136,6 +136,9 @@ ul {
   }
   .Text2 {
       font-size: calc(20px + 1.5vw);;
+  }
+  .long {
+    top:20%
   }
   .Text {
     font-size: calc(20px + 1.5vw);;
