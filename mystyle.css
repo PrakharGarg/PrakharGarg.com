@@ -60,7 +60,6 @@ body {
   animation: swinging 3.5s ease-in-out forwards;
   opacity: 0;
   transform: translateY(200px);
-  z-index: -999;
 }
 
 .Text2 {
