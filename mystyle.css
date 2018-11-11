@@ -73,6 +73,10 @@ body {
   color: rgb(72, 67, 187)
 }
 
+.long {
+  top: 25%;
+}
+
 
 li {
   display: inline;
