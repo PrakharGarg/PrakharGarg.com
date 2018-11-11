@@ -70,6 +70,7 @@ body {
   top: 40%;
   width: 40vw;
   overflow: hidden;
+  color: rgb(72, 67, 187)
 }
 
 
@@ -88,7 +89,7 @@ li a {
 li a:hover {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
-  transform: translateY(5px);
+  transform: translateY(-5px);
 }
 
 ul {
@@ -102,6 +103,20 @@ ul {
 
 .fa{
   color: rgb(230, 230, 230);
+}
+.fa:hover {
+  color:rgb(82, 76, 186)
+}
+
+.name {
+  display: inline;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(82, 76, 186);
+}
+
+.wave {
+  display: inline;
 }
 
 @media only screen and (max-width: 600px) {
